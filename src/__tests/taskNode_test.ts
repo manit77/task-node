@@ -151,7 +151,7 @@ function getRandomNumberSeconds() {
     return (Math.floor(Math.random() * 5) + 1) * 1000;
 }
 
-test("test hard oded nodes", async () => {
+test("test hard coded nodes", async () => {
     /*
 
       >>master
