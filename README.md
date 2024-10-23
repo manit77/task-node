@@ -6,7 +6,7 @@ Useful for a webpage with multiple functions that need to fire in sequence. Wher
 
 ## Git:
 
-https://github.com/manit77/task-node/
+https://github.com/manit77/task-nodex/
 
 ## Example:
 
