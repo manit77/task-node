@@ -1,4 +1,4 @@
-# Task Node
+# Task NodeX
 
 JavaScript library for executing tasks in a tree structure. Create a hierarchy of functions to execute synchronously or asynchronously. After each task execute a finalizing function.
 
@@ -25,9 +25,12 @@ Useful for a webpage with multiple functions that need to fire in sequence. Wher
 - When Task3 is complete, execute task3Complete function
 - When all tasks are complete, execute the finalizeFunction() function.
 
+## Usage:
+npm install task-nodex
 
 ## Exmple Code:
 ````md
+import { execTaskNode, getTaskNode, TaskNode } from "task-nodex";
 
 class WebController() {
 

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --silent=false --detectOpenHandles",
-    "build": "rimraf dist && tsc --build --force && cp LICENSE.md dist/ && cp package.json dist/ && rm dist/tsconfig.tsbuildinfo"
+    "build": "rimraf dist && tsc --build --force && cp LICENSE.md dist\\ && cp package.json dist\\ && rm dist\\tsconfig.tsbuildinfo"
   },
   "keywords": [
     "linked list",
