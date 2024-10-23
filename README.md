@@ -1,7 +1,8 @@
 # Task Node
 
-JavaScript library for executing tasks in a tree structure. Create a nested tree heirarchy of functions to execute synchronously or asynchronously, after each task exeute a finalizing function.
+JavaScript library for executing tasks in a tree structure. Create a hierarchy of functions to execute synchronously or asynchronously. After each task execute a finalizing function.
 
+Useful for a webpage with multiple functions that need to fire in sequence. Where the functions are async functions, promises, or Observables.
 
 ## Example:
 
@@ -27,6 +28,16 @@ JavaScript library for executing tasks in a tree structure. Create a nested tree
 
 ## Exmple Code:
 ````md
+
+class WebController() {
+
+  GetProduct(task: TaskNode) {
+    // perform async task
+    // call complete when task is done
+    task.complete();
+  }
+
+}
 
 let controller = new WebController();
 
