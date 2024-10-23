@@ -4,6 +4,10 @@ JavaScript library for executing tasks in a tree structure. Create a hierarchy o
 
 Useful for a webpage with multiple functions that need to fire in sequence. Where the functions are async functions, promises, or Observables.
 
+## Git:
+
+https://github.com/manit77/task-node/
+
 ## Example:
 
 > masterTask, BindForm()

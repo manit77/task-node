@@ -1,11 +1,11 @@
 {
-  "name": "task-node",
-  "version": "1.0.2",
+  "name": "task-nodex",
+  "version": "1.0.4",
   "description": "JavaScript library for executing tasks in a tree structure.",
   "main": "index.js",
   "scripts": {
     "test": "jest --silent=false --detectOpenHandles",
-    "build": "rimraf dist && tsc --build --force && cp LICENSE.md dist/ && cp package.json dist/ && rm dist/tsconfig.tsbuildinfo"
+    "build": "rimraf dist && tsc --build --force && cp README.md dist/ && cp LICENSE.md dist/  && cp package.json dist/ && rm dist/tsconfig.tsbuildinfo"
   },
   "keywords": [
     "linked list",
@@ -16,6 +16,10 @@
   ],
   "author": "Manit Chanthavong",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manit77/task-node.git"
+  },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
     "@types/jest": "^29.5.13",
