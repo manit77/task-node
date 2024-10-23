@@ -1,6 +1,6 @@
 {
   "name": "task-nodex",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "JavaScript library for executing tasks in a tree structure.",
   "main": "index.js",
   "scripts": {

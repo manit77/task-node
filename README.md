@@ -32,7 +32,7 @@ https://github.com/manit77/task-nodex/
 ## Usage:
 npm install task-nodex
 
-## Exmple Code:
+## Example Code:
 ````md
 import { execTaskNode, getTaskNode, TaskNode } from "task-nodex";
 
