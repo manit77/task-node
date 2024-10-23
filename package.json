@@ -1,0 +1,31 @@
+{
+  "name": "task-node",
+  "version": "1.0.0",
+  "description": "JavaScript library for executing tasks in a tree structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --silent=false --detectOpenHandles",
+    "build": "rimraf dist && tsc --build --force"
+  },
+  "keywords": [
+    "linked list",
+    "tree",
+    "task",
+    "promise",
+    "functions"
+  ],
+  "author": "Manit Chanthavong",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.8",
+    "eslint": "^9.13.0",
+    "jest": "^29.7.0",
+    "rimraf": "^6.0.1",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0"
+  }
+}
