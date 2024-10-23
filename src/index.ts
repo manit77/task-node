@@ -1,2 +1,2 @@
 export { LinkedNode, LinkedList  } from "./linkedList"
-export { TaskNode  } from "./taskNode"
+export { TaskNode, getTaskNode, mergeTaskNodes, execTaskNode } from "./taskNode"
