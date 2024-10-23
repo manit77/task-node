@@ -10,24 +10,24 @@ https://github.com/manit77/task-nodex/
 
 ## Example:
 
-> masterTask, BindForm()
->> task1 (sync)
->>> initControls
->>> getQueryStringVars 
+> masterTask, finalizeFunction()
+>> task1, task1Func(), task1Done() (sync)
+>>> initControls (async)
+>>> getQueryStringVars (async)
 
 >> task2 (sync)
 >>> getProductCategories (async)
 >>> getProductTypes (async)
 
->> Task3 (sync), task3Complete()
+>> Task3, task3Complete() (sync)
 >>> getUser (async)
 >>> getProduct (async)
 
 - Tasks 1, 2, 3 will execute synchronously
-- When Task1 is complete execute Task1
+- When Task1, execute  task1Func(), then execute initControls(), getQueryStringVars() asynchronously, then execute task1Done() synchronously
 - When Task2, execute getProductCategories(), getProductTypes() asynchronously
-- When Task3 is complete, execute task3Complete function
-- When all tasks are complete, execute the finalizeFunction() function.
+- When Task3, execute getUser(),getProduct() asynchronously, then execute task3Complete() synchronously
+- When all tasks are complete, execute finalizeFunction() function.
 
 ## Usage:
 npm install task-nodex
